@@ -1,0 +1,193 @@
+root{
+    --bg1: #2d2a2b;
+    --bg2:rgb(44, 42, 42);
+    --body:rgb(95,86,86);
+    --brand:#f2b03b;
+    --white:rgb(156, 154,154);
+    --p:rgb(150, 161, 155);
+}
+
+body{
+
+    background-color: var(--bg1);
+}
+a {
+    text-decoration-color: none;
+}
+section {
+    padding-top: 100px;
+    padding-bottom:  100px;
+}
+
+
+
+#banner{
+    background: url("https://img.freepik.com/free-photo/living-room-mid-century-style-with-warm-colors-ai-generative_123827-23931.jpg?t=st=1714624007~exp=1714627607~hmac=0941c8007b821db84fba38391338dacf12e12c66891f3b13f7f26b3f1fb64026&w=1380");
+    height:100vh;
+    background-size: cover;
+    width: 100%;
+}
+
+.navbar{
+    background: linear-gradient(to button,) hysla(0.2%, 17%, 0.629), rgba(44,42,0.884);
+
+}
+
+.navbar .nav- link:hover {
+    color: var(--brand);
+
+}
+
+.btn {
+    padding: 15px;
+    transition: all 0. 4s ease;
+    font-weight: 800;
+    border-radius: 0;
+}
+
+.btn-brand {
+    background-color: var(--brand);
+
+}
+.btn-brand:hover {
+    background-color: transparent;
+    columns: var(--bg1);
+    border-color: var(--brand);
+}
+
+.icon-box-img{
+    width: 40%;
+}
+
+.btn-outline-brand:hover{
+    background-color: transparent;
+    color: var(--brand);
+    color: var(--bg1);
+    
+}
+.card {
+    transition: background-color 0.3s, color 0.3s; 
+}
+
+.card:hover {
+    background-color: var(--bg1);
+}
+.card:hover .card-tatle,
+.card:hover .card-text
+.card:hover .btn{
+    color: #f2b03b;
+}
+
+#cta {
+    position: relative;
+    opacity: 0.98;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* paralax effect*/
+    background-attachment: fixed;
+    /*paralax effect / to remove to effect set to normal*/
+    background-image: url("https://img.freepik.com/free-photo/living-room-mid-century-style-with-warm-colors-ai-generative_123827-23931.jpg?t=st=1714624007~exp=1714627607~hmac=0941c8007b821db84fba38391338dacf12e12c66891f3b13f7f26b3f1fb64026&w=1380");
+    min-height: 70vh;
+}
+
+#services {
+    background-color: #3bf2ca;
+    height:80vh;
+    background-size: cover;
+    width: 100%;
+
+}
+
+#reviews {
+    background-color:  #3bf2c4;
+    height: 110vh;
+    background-size: cover;
+    width: 100%;
+}
+
+.testimonials {
+   background-color: #2a2d2a;
+    padding: 30px;
+}
+
+.testimonials img {
+    width: 65px;
+    border-radius: 100px;
+    height:  100px;
+
+}
+
+#reviews a {
+    color: var(--brand);
+}
+
+.faq-section {
+    max-width: 1000px;
+    margin:auto,
+}
+
+.according-items {
+    margin-bottom: 10px;
+    border-radius:  5,;
+}
+
+.accordion-button {
+    background-color: #2a2d2a;
+    border:none;
+    border-bottom: 1px solid #2a2d2a;
+    border-radius: 0;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 500;
+    color:aqua(0, 8, 8,);
+    cursor: pointer;
+    transition: background-color 0,3s, color 0,3s;
+}
+
+.faq-answer p {
+    margin-bottom: 0;
+}
+.accordion-button:not(.collapsed) {
+    color: var(--bg1);
+
+}
+
+/*hover effect for FAQ question */
+.accordion-button:hover {
+    background-color: #2a2d2a; /*chacge backgroundcolor on hover*/
+    color:aqua; /*change tex color on hover*/
+}
+
+/*adjust accordion icon*/
+.accordion-button::after {
+    font-family: "font awesome5 free";
+    content: "";/* plus icon*/
+    float: right;
+    font-weight: 900;
+    margin-left: auto;
+}
+.accordion-button[aria-expanded= "true"]::after {
+    content: ""; /*minus icon*/
+}
+.footer .container {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.footer h5 {
+    margin-bottom: 20px;
+}
+
+.footer p {
+    margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+    .footer .col-md-3 {
+        margin-bottom: 30px;
+    }
+}
+#footer {
+    background-color: rgb(182, 230, 173);
+}

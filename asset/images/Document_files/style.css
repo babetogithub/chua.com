@@ -1,0 +1,115 @@
+root{
+    --bg1: #2d2a2b;
+    --bg2:rgb(44, 42, 42);
+    --body:rgb(95,86,86);
+    --brand:#f2b03b;
+    --white:rgb(156, 154,154);
+    --p:rgb(161, 150, 150);
+}
+
+body{
+
+    background-color: var(--bg1);
+}
+a {
+    text-decoration-color: none;
+}
+section {
+    padding-top: 100px;
+    padding-bottom:  100px;
+}
+
+
+
+#banner{
+    background: url(https://media.istockphoto.com/id/1591572504/photo/cheerful-businesswomen-shaking-hands-in-meeting-room.jpg?s=2048x2048&w=is&k=20&c=UB30U2hRmQQOxLuc-sAnWW6Ltrr1FE43KbYj8zNEvLA=);
+    height:100vh;
+}
+
+.navbar{
+    background: linear-gradient(to button,) hysla(0.2%, 17%, 0.629), rgba(44,42,0.884);
+
+}
+
+.navbar .nav- link:hover {
+    color: var(--brand);
+
+}
+
+.btn {
+    padding: 15px;
+    transition: all 0. 4s ease;
+    font-weight: 800;
+    border-radius: 0;
+}
+
+.btn-brand {
+    background-color: var(--brand);
+
+}
+.btn-brand:hover {
+    background-color: transparent;
+    columns: var(--bg1);
+    border-color: var(--brand);
+}
+
+.icon-box-img{
+    width: 40%;
+}
+
+.btn-outline-brand:hover{
+    background-color: transparent;
+    color: var(--brand);
+    color: var(--bg1);
+    
+}
+.card {
+    transition: background-color 0.3s, color 0.3s; 
+}
+
+.card:hover {
+    background-color: var(--bg1);
+}
+.card:hover .card-tatle,
+.card:hover .card-text
+.card:hover .btn{
+    color: #f2b03b;
+}
+
+#cta {
+    position: relative;
+    opacity: 0.98;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* paralax effect*/
+    background-attachment: fixed;
+    /*paralax effect / to remove to effect set to normal*/
+    background-image: url(https://media.istockphoto.com/id/1591572504/photo/cheerful-businesswomen-shaking-hands-in-meeting-room.jpg?s=2048x2048&w=is&k=20&c=UB30U2hRmQQOxLuc-sAnWW6Ltrr1FE43KbYj8zNEvLA=);
+    min-height: 70vh;
+}
+
+#services {
+    background-color:  #f23b81;
+
+}
+
+#reviews {
+    background-color: var(--bg1);
+}
+
+.testimonials {
+   background-color: #2d2a2b;
+    padding: 30px;
+}
+
+.testimonials img {
+    width: 65px;
+    border-radius: 100px;
+    height:  65px;
+
+}
+
+#reviews a {
+    color: var(--brand);
+}
